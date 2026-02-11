@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Trash2, ChevronDown, PlusCircle, Briefcase, Award } from 'lucide-react';
+import { useState } from 'react';
+import { Trash2, ChevronDown, Briefcase, Award } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { TRLProgressBar } from './Visualizers';
 

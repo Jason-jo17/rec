@@ -1,4 +1,3 @@
-import React from 'react';
 import { Star, BrainCircuit, Puzzle, DollarSign, Award } from 'lucide-react';
 import { motion } from 'framer-motion';
 
