@@ -1,5 +1,4 @@
 import { Star, Puzzle, DollarSign, Award } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 export const Tag = ({ children, icon: Icon, color = 'indigo' }: any) => {
     const colors: Record<string, string> = {

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Trash2, ChevronDown, PlusCircle } from 'lucide-react';
+import { Trash2, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const TRL_DESCRIPTIONS = [
@@ -103,7 +103,7 @@ export const EditableEventCard = ({ event, index, onUpdate, onRemove }: any) => 
         <div className="p-4 border border-gray-200 rounded-lg bg-gray-50 relative">
             <div className="flex justify-between items-start">
                 <div className="flex-grow">
-                    <FormInput label="Event Name" value={event.name} onChange={e => handleFieldChange(['name'], e.target.value)} />
+                    <FormInput label="Event Name" value={event.name} onChange={(e: any) => handleFieldChange(['name'], e.target.value)} />
                 </div>
                 <div className="flex items-center ml-4 mt-6">
                     <button onClick={() => onRemove()} className="text-gray-400 hover:text-red-500 mr-2"><Trash2 size={16} /></button>

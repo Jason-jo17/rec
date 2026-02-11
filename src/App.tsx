@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { Send, Server, FileJson, AlertTriangle, CheckCircle, Loader2, Clipboard, ClipboardCheck, PlusCircle, User, Briefcase, Award } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { Send, Server, FileJson, Loader2, Clipboard, ClipboardCheck, PlusCircle, User, Briefcase, Award } from 'lucide-react';
 import { EditableProjectCard, EditableEventCard } from './components/EditableCards';
 import { ResponseUI } from './components/Visualizers';
 
