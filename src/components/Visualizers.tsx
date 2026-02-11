@@ -32,8 +32,8 @@ export const RecommendationCard = ({ icon: Icon, item }: any) => (
         </div>
         {(item.reason || item.reasoning || item.reason_for_recommendation) && (
             <div className="border-t border-gray-100 pt-4">
-                <p className="text-xs text-gray-500 italic">
-                    <span className="font-semibold text-gray-700 not-italic">Reason:</span> {item.reason || item.reasoning || item.reason_for_recommendation}
+                <p className="text-xs text-gray-500 break-words">
+                    <span className="font-semibold text-gray-700">Reason:</span> {item.reason || item.reasoning || item.reason_for_recommendation}
                 </p>
             </div>
         )}
